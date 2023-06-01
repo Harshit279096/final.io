@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphones & Chill</title>
+<link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0%;
+        box-sizing: border-box;
+        font-family: 'poppins',sans-serif;
+    }
+    .container{
+        width: 100%;
+        height: 100vh;
+        background-image: url(android-chrome-512x512.png);
+        background-repeat: no-repeat;
+        background-size: 50%;
+        display: flex;
+        align-items: center;
+        margin-left: 3%;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        padding: 2w 4w;
+        width: 90%;
+        max-width: 600px;
+        border-radius: 10px;
+        margin-left: 43%;
+    }
+    form h3{
+        color: #555;
+        font-weight: 800;
+        margin-bottom: 20px;
+        font-size: xx-large;
+        justify-content: center;
+    }
+    form input,form textarea{
+        border: 0;
+        margin: 10px 0;
+        padding: 20px;
+        outline: none;
+        font-size: 16px;
+        background-color: #543fdd1c;
+    }
+    form button{
+        padding: 15px;
+        background: #ff5361;
+        color: #fff;
+        border: 0;
+        outline: none;
+        cursor: pointer;
+        width: 150px;
+        margin: 20px auto 0;
+        border-radius: 30px;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <form action="https://formsubmit.co/1f7fecd3da44435554d42feadcb2bd5e" method="POST">
+            <h3>Get In Touch</h3>
+            Name:
+            <input type="text" id="name" placeholder="Your Name" required>
+            Email:
+            <input type="email" id="email" placeholder="Your email" required>
+            Your Country
+            <input type="text" id="country" placeholder="Your country" required>
+            Message:
+            <textarea id="message" rows="4" placeholder="How can I help you"></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</body>
+</html>

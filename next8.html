@@ -1,0 +1,1300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Headphone & chills</title>
+<link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:28%;
+     left:50%;
+    }
+    .features table th{
+  
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 199%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:375%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:570%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:770%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:950%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1112%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features7 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1290%;
+     left:55%;
+    }
+    .features7 table th{
+     background: #4a48c2;
+    }
+    .features7 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features8 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1460%;
+     left:55%;
+    }
+    .features8 table th{
+     background: #4a48c2;
+    }
+    .features8 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:35%;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+  
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:120%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:213%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:315%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:405%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:490%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:568%;
+    }
+    .filter7{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:660%;
+    }
+    .filter8{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:740%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 37%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   }  
+  </style>
+<body>
+<div class="box">
+<img src="81.jpg" width="500px"height="500px">
+<p>Cosmic Byte Equinox Orion 7.1 Surround RGB USB Gaming Headset
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+
+<td>Over-Ear Headphones </td></tr>
+<tr>
+<td> 360 Spatial Sound </td></tr>
+<tr>
+<td> USB Wired Over-Ear Professional</td> </tr>
+<tr>
+ <td>Mic/Compatible with PCs,Laptops</td></tr>
+ <tr> 
+<td> 3.5mm Audio Output</td></tr>
+    </table>
+</div>
+<div class="filter">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+
+<td>Build quality is really good , and looks premium.</td>
+<td> Clamping force is quite more at first but gets normal with the use .</td>
+    </tr>
+    <tr>
+<td>  Overall sound is quite soothing to ears </td>
+<td> Wire quality is good , but inline controller is a bit old design .</td>
+    </tr>
+    <tr>
+<td>bass is also soothing & good .</td> 
+<td>3.5 jack connectivity issues</td>
+    </tr>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr> 
+<div class="box">
+<img src="82.jpg" width="500px"height="500px">
+<p>SteelSeries Arctis 7 Lossless 2.4GHz Bluetooth Wireless Over Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features1">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td> DTS Headphone Surround for PC</td></tr>
+<tr>
+ <td> 24 Hour Battery life </td></tr>
+ <tr>
+<td> ClearCast with Mic </td></tr>
+    </table>
+</div>
+
+<div class="filter1">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+
+ <td>Extremely comfortable</td>
+ <td>If you are looking to use this with your mobile, it's a no-go because they connect using a transmitter which is a USB-A connection.</td>
+    </tr>
+    <tr>
+<td>Sound quatdty is great. </td>
+<td>Steelseries support in India is non-existent, and whatever exists is abysmal. This is a risk you should know before investing 15k+ into a headphone.</td> 
+    </tr>
+    <tr>
+ <td>Build feels sturdy and premium.</td>
+ <td>The mic while great, could have been much better at this price point.</td>
+    </tr>
+    </table>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr> 
+<div class="box">
+<img src="84.jpg" width="500px"height="500px">
+<p>ASUS TUF H3 Wired Over Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features2">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>50 mm ASUS Essence drivers and exclusive airtight chamber technology deliver an immersive audio experience</td>,
+
+   </tr>
+<tr>
+<td>Virtual 7.1 surround sound supported by Windows Sonic</td></tr>
+<tr>
+<td>Tough, stainless-steel headband and yoke provide improved stability and durability</td></tr>
+<tr>
+ <td>Lightweight design ensures comfort while gaming</td></tr>
+ <tr>
+ <td>Cross-platform support for PC, Mac, PS5, Nintendo Switch, Xbox One and mobile phones</td></tr>
+ <tr>
+ <td> Analog microphone provides clear in-game communication</td></tr>
+    </table>
+</div>
+
+<div class="filter2">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+
+<td>good comfort</td>
+<td>cable could have been longer, if you use rear IO of your pc its not enough</td></tr>
+<tr>
+
+<td>mic quatdty is best among this price segment</td>
+<td>earcups aren't interchangeable</td></tr>
+<tr>
+
+<td>the earcups are great</td>
+<td>there isn't free movement for the mic</td></tr>
+<tr>
+
+<td>cable is long enough</td>
+<td>the mute mic button stays a bit flush now after 3 month of use but still works fine</td></tr>
+</table>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr> 
+<div class="box">
+<img src="85.jpg" width="500px"height="500px">
+<p>SpinBot BattleBudz H1 Over-The-Ear Wired Gaming Headphone
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features3">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Large 50mm audio drivers produce great sound for a more immersive gaming experience.</td></tr>
+<tr>
+ <td>Noise Canceltdng Adjustable Boom Mic makes sure you’re heard by gaming partners loud and clear.</td></tr>
+ <tr>
+ <td>Maximize the atmosphere of gaming with cool RGB LED lights</td></tr>
+ <tr>
+ <td>Connects to PC, mobile devices and game consoles via simple 3.5mm plug.</td></tr>
+ <tr>
+ <td>Premium memory protein ear pads and headband for comfortable gaming</td></tr>
+ <tr>
+    <td>2m long braided wire</td></tr>
+    <tr>
+  <td> On-Headset Volume Control</td></tr>
+    </table>
+</div>
+
+<div class="filter3">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+<td>good comfort</td>
+<td>cable could have been longer, if you use rear IO of your pc its not enough</td>
+    </tr>
+    <tr>
+<td>mic quality is best among this price segment</td>
+<td>earcups aren't interchangeable</td>
+    </tr>
+    <tr>
+<td>the earcups are great</td>
+<td>there isn't free movement for the mic</td>
+    </tr>
+    <tr>
+<td>bass is okay-ish, but good for a gaming headset</td>
+<td>the mute mic button stays a bit flush now after 3 month of use but still works fine</td>
+    </tr>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr> 
+<div class="box">
+<img src="86.jpg" width="500px"height="500px">
+<p>Logitech G733 tdghtspeed Bluetooth Wireless On Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features4">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Total freedom with up to 20 m wireless range  </td></tr>
+<tr>
+ <td> Lightweight wireless audio transmission.</td></tr>
+ <tr>
+<td>Keep playing for up to 29 hours of battery life.</td></tr>
+<tr>
+<td>Colourful, reversible suspension headbands are designed for comfort during long play sessions.</td></tr>
+<tr>
+<td>Advanced mic filters that make your voice sound richer, cleaner, and more professional. </td></tr>
+<tr>
+ <td>Hear every audio cue with breathtaking clarity and get immerse in your game.</td></tr>
+    </table>
+</div>
+
+<div class="filter4">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+
+ <td>Lightweight and comfortable. Good for long sessions.</td>
+ <td>No bluetooth/wired connection. No way to connect to phone.</td>
+    </tr>
+    <tr>
+<td>Best mic I have had so far. Background noises are cut off very nicely. </td>
+<td>Sound isn't that much impressive. Its good but expected tdttle more at this price.</td> 
+    </tr>
+    <tr>
+ <td>Long lasting battery. This is insanely good, specially when rgb is turned off.</td>
+ <td>Music cuts off after 10-15m with 1/2 wall in between. </td>
+    </tr>
+    </table>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr> 
+<div class="box">
+<img src="87.jpg" width="500px"height="500px">
+<p>SteelSeries Arctis 3 | All-Platform Gaming Headset
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features5">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Total freedom with up to 20 m wireless range  </td></tr>
+<tr>
+<td> Lightweight wireless audio transmission.</td></tr>
+<tr>
+<td>Keep playing for up to 29 hours of battery life.</td></tr>
+<tr>
+<td>Colourful, reversible suspension headbands are designed for comfort during long play sessions.</td></tr>
+<tr>
+<td>Advanced mic filters that make your voice sound richer, cleaner, and more professional. </td></tr>
+<tr>
+<td>Hear every audio cue with breathtaking clarity and get immerse in your game.</td></tr>
+    </table>
+</div>
+<div class="filter5">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+<td>Mic is good quality and flexible to suit your style of position.</td>
+<td>Volume, with use on PC, I had to turn up the system volume louder than normal.</td>
+    </tr>
+    <tr>
+<td>Lightweight and feels good on your head, evenly distributed weight.</td>
+<td>Volume, with use on Xbox One controller, not great at all. </td>
+    </tr>
+    <tr>
+<td>Foldaway feature for the mic is cool, but does not de-activate it .</td>
+<td> No isolation, I could hear the hum of my xbox, even while playing a game. </td>
+    </tr>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="box">
+<img src="88.jpg" width="500px"height="500px">
+<p>Razer Kraken Kitty Ears Chroma USB RGB Gaming Wired Over Ear Headphones 
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features6">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Kitty ears and earcups powered by Razer Chroma</td></tr>
+<tr>
+ <td>Stream-reactive lighting</td></tr>
+ <tr>
+<td>Active noise-cancetdng microphone</td></tr>
+<tr>
+ <td>THX Spatial Audio</td></tr>
+ <tr>
+<td>Cooling-gel ear cushions</td></tr>
+    </table></div>
+    <div class="filter6">
+        <table>
+            <tr>
+      <th>
+          Pros / Advantages
+      </th>
+      <th>
+          Cons / Disadvantages
+      </th>
+            </tr>
+        <tr>
+    
+     <td>Lightweight and comfortable. Good for long sessions.</td>
+     <td>No bluetooth/wired connection. No way to connect to phone.</td>
+        </tr>
+        <tr>
+    <td>Best mic I have had so far. Background noises are cut off very nicely. </td>
+    <td>Sound isn't that much impressive. Its good but expected tdttle more at this price.</td> 
+        </tr>
+        <tr>
+     <td>Long lasting battery. This is insanely good, specially when rgb is turned off.</td>
+     <td>Music cuts off after 10-15m with 1/2 wall in between. </td>
+        </tr>
+        </table>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>  
+<div class="box">
+<img src="89.jpg" width="500px"height="500px">
+<p>MFTEK Gaming Headphone
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features7">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Noise Cancellation </td></tr>
+<tr>
+<td> Volume Control Gaming Headset with Mic</td></tr>
+<tr> 
+ <td>LED light Over-Ear Headphone</td></tr>
+ <tr>
+     <td> 3.5mm Wired</td></tr>
+     <tr>
+ <td>  40mm Driver Unit</td></tr>
+ <tr>
+  <td>Double bass</td></tr>
+    </table></div>
+    <div class="filter7">
+        <table>
+            <tr>
+      <th>
+          Pros / Advantages
+      </th>
+      <th>
+          Cons / Disadvantages
+      </th>
+            </tr>
+        <tr>
+    <td>good comfort</td>
+    <td>cable could have been longer, if you use rear IO of your pc its not enough</td>
+        </tr>
+        <tr>
+    <td>mic quality is best among this price segment</td>
+    <td>earcups aren't interchangeable</td>
+        </tr>
+        <tr>
+    <td>the earcups are great</td>
+    <td>there isn't free movement for the mic</td>
+        </tr>
+        <tr>
+    <td>bass is okay-ish, but good for a gaming headset</td>
+    <td>the mute mic button stays a bit flush now after 3 month of use but still works fine</td>
+        </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+<div class="box">
+<img src="90.jpg" width="500px"height="500px">
+<p>HP X1000 Wireless USB Over Ear Gaming Headphones 
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features8">
+    <table>
+   <tr>
+      <th>Features</th>
+   </tr>
+   <tr>
+<td>Noise Cancellation </td></tr>
+<tr>
+<td> 7.1 Surround Sound with Mic</td></tr>
+<tr>
+ <td>50 mm Drivers</td></tr>
+ <tr>
+  <td>20 Hours of Battery life</td></tr>
+    </table>
+</div>
+<div class="filter8">
+    <table>
+        <tr>
+  <th>
+      Pros / Advantages
+  </th>
+  <th>
+      Cons / Disadvantages
+  </th>
+        </tr>
+    <tr>
+
+<td>Build quality is really good , and looks premium.</td>
+<td> Clamping force is quite more at first but gets normal with the use .</td>
+    </tr>
+    <tr>
+<td>  Overall sound is quite soothing to ears </td>
+<td> Wire quality is good , but inline controller is a bit old design .</td>
+    </tr>
+    <tr>
+<td>bass is also soothing & good .</td> 
+<td>3.5 jack connectivity issues</td>
+    </tr>
+    </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="font">
+
+<a href="pre7.html">Previous</a>
+<a href="next9.html">Next</a>
+</div>
+</body>
+</html>

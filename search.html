@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Headphones & Chill</title>
+<link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+
+
+</head>
+<style>
+*{
+box-sizing: border-box;
+font-family:'Source Sans Pro',sans-serif;
+}
+body{
+width: 100%;
+height: 100vh;
+margin: auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.container{
+   width: 1175px;
+   height: 720px;
+   border-radius: 15px;
+   box-shadow: 4px 4px 30px rgba(0, 0, 0, .06);
+   padding: 20px;
+   overflow-y:scroll;
+}
+.container::-webkit-scrollbar{
+display: none;
+}
+.container form{
+width: 100%;
+border:1px solid rgba(82, 74, 235);
+border-radius: 4px;
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+.container form input{
+border: none;
+outline: none;
+box-shadow: none;
+width: 100%;
+font-size: 16px;
+font-weight: 600;
+padding:8px 10px;
+
+}
+.container form i{
+padding-left: 10px;
+}
+.product list{
+padding: 20px 0;
+}
+.product{
+display: flex;
+align-items: center;
+cursor: pointer;
+padding-bottom: 15px;
+}
+.product img{
+width: 70px;
+height: 70px;
+object-fit: cover;
+border-radius: 5px;
+}
+
+.product .p-detail{
+padding-left: 15px;
+}
+.product .p-detail  a h2{
+font-size: 20px;
+color: #1d1d1d;
+}
+.product .p-detail  a{
+text-decoration: none;
+
+}
+
+</style>
+<body>
+<section class="container">
+<form>
+  <i class="fas fa-search"></i>
+  <input type="text" name="" id="search-item" placeholder="search product" onkeyup="search()">
+</form>
+<div class="product-list" id="product-list">
+<div class="product">
+<img src="1.jpg">
+<div class="p-detail">
+   <a href="1.html"><h2>boAt Rockerz 550</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="2.jpg">
+<div class="p-detail">
+   <a href="2.html"><h2>JBL Tune 760NC</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="3.jpg">
+<div class="p-detail">
+   <a href="3.html"><h2>boAt Rockerz 450 </h2></a>
+</div>
+</div>
+<div class="product">
+<img src="5.jpg">
+<div class="p-detail">
+   <a href="5.html"><h2>Sony Wh-Ch510</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="6.jpg">
+<div class="p-detail">
+   <a href="6.html"><h2>boAt Rockerz 370</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="7.jpg">
+<div class="p-detail">
+   <a href="7.html"><h2>boAt Rockerz 450 Pro</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="8.jpg">
+<div class="p-detail">
+   <a href="8.html"><h2>ZEBRONICS Zeb-Duke1</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="9.jpg">
+<div class="p-detail">
+   <a href="9.html"><h2>EKSA E7000</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="10.jpg">
+<div class="p-detail">
+   <a href="10.html"><h2>Jabra Gn Netcom Evolve 20</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="11.jpg">
+<div class="p-detail">
+   <a href="11.html"><h2>Ambrane RangerZ</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="13.jpg">
+<div class="p-detail">
+   <a href="13.html"><h2>Boult Audio Probass Anchor</h2></a>
+</div>
+</div><div class="product">
+<img src="14.jpg">
+<div class="p-detail">
+   <a href="14.html"><h2>Hammer Bash 2.0</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="15.jpg">
+<div class="p-detail">
+   <a href="15.html"><h2>Sony Extra Bass MDR-XB450AP</h2></a>
+</div>
+</div><div class="product">
+<img src="16.jpg">
+<div class="p-detail">
+   <a href="16.html"><h2>Jabra Evolve2</h2></a>
+</div>
+</div><div class="product">
+<img src="17.jpg">
+<div class="p-detail">
+   <a href="17.html"><h2>Tribit XFree</h2></a>
+</div>
+</div><div class="product">
+<img src="18.jpg">
+<div class="p-detail">
+   <a href="18.html"><h2>Infinity JBL Glide 510</h2></a>
+</div>
+</div><div class="product">
+<img src="19.jpg">
+<div class="p-detail">
+   <a href="19.html"><h2>Bose Noise Cancelling 700</h2></a>
+</div>
+</div><div class="product">
+<img src="20.jpg">
+<div class="p-detail">
+   <a href="20.html"><h2>Melomane Melophones Opera</h2></a>
+</div>
+</div><div class="product">
+<img src="21.jpg">
+<div class="p-detail">
+   <a href="21.html"><h2>pTron Studio</h2></a>
+</div>
+</div><div class="product">
+<img src="22.jpg">
+<div class="p-detail">
+   <a href="22.html"><h2>ZEBRONICS Zeb-Bang</h2></a>
+</div>
+</div><div class="product">
+<img src="23.jpg">
+<div class="p-detail">
+   <a href="23.html"><h2>MI Super Bass</h2></a>
+</div>
+</div><div class="product">
+<img src="24.jpg">
+<div class="p-detail">
+   <a href="24.html"><h2>VEHOP Reason</h2></a>
+</div>
+</div><div class="product">
+<img src="25.jpg">
+<div class="p-detail">
+   <a href="25.html"><h2>YAMAHA Studio Monitor</h2></a>
+</div>
+</div><div class="product">
+<img src="26.jpg">
+<div class="p-detail">
+   <a href="26.html"><h2>VEHOP Reason</h2></a>
+</div>
+</div><div class="product">
+<img src="27.jpg">
+<div class="p-detail">
+   <a href="27.html"><h2>Sony WH-1000XM4C</h2></a>
+</div>
+</div><div class="product">
+<img src="28.jpg">
+<div class="p-detail">
+   <a href="28.html"><h2>Sony MDR-ZX110AP</h2></a>
+</div>
+</div><div class="product">
+<img src="29.jpg">
+<div class="p-detail">
+   <a href="29.html"><h2>Blaupunkt BH01</h2></a>
+</div>
+</div><div class="product">
+<img src="30.jpg">
+<div class="p-detail">
+   <a href="30.html"><h2>Audio-Technica Ath-M20X</h2></a>
+</div>
+</div><div class="product">
+<img src="31.jpg">
+<div class="p-detail">
+   <a href="31.html"><h2>Marshall Major IV </h2></a>
+</div>
+</div><div class="product">
+<img src="32.jpg">
+<div class="p-detail">
+   <a href="32.html"><h2>Skullcandy Crusher Evo</h2></a>
+</div>
+</div><div class="product">
+<img src="33.jpg">
+<div class="p-detail">
+   <a href="33.html"><h2>boAt Rockerz 510</h2></a>
+</div>
+</div><div class="product">
+<img src="34.jpg">
+<div class="p-detail">
+   <a href="34.html"><h2>boAt Rockerz 518</h2></a>
+</div>
+</div><div class="product">
+<img src="35.jpg">
+<div class="p-detail">
+   <a href="35.html"><h2>JBL Tune 500BT</h2></a>
+</div>
+</div>
+<div class="product">
+    <img src="36.jpg">
+    <div class="p-detail">
+      <a href="36.html"><h2>Philips Audio TAA4216</h2></a>
+    </div>
+    </div>
+<div class="product">
+<img src="37.jpg">
+<div class="p-detail">
+   <a href="37.html"><h2>Sennheiser HD 458</h2></a>
+</div>
+</div><div class="product">
+<img src="38.jpg">
+<div class="p-detail">
+   <a href="38.html"><h2>Sennheiser HD 450BT</h2></a>
+</div>
+</div><div class="product">
+<img src="39.jpg">
+<div class="p-detail">
+   <a href="39.html"><h2>Philips Audio Upbeat Tauh201</h2></a>
+</div>
+</div><div class="product">
+<img src="40.jpg">
+<div class="p-detail">
+   <a href="40.html"><h2>Philips Audio TAH6506BK/00</h2></a>
+</div>
+</div><div class="product">
+<img src="41.jpg">
+<div class="p-detail">
+   <a href="41.html"><h2>Macmerise The Dark Knight </h2></a>
+</div>
+</div><div class="product">
+<img src="42.jpg">
+<div class="p-detail">
+   <a href="42.html"><h2>OneOdio Over Ear Headphones</h2></a>
+</div>
+</div><div class="product">
+<img src="43.jpg">
+<div class="p-detail">
+   <a href="43.html"><h2>Sony WH-XB910N</h2></a>
+</div>
+</div><div class="product">
+<img src="44.jpg">
+<div class="p-detail">
+   <a href="44.html"><h2>Redgear Cosmo 7</h2></a>
+</div>
+</div><div class="product">
+<img src="45.jpg">
+<div class="p-detail">
+   <a href="45.html"><h2>boAt Immortal IM 300</h2></a>
+</div>
+</div><div class="product">
+<img src="46.jpg">
+<div class="p-detail">
+   <a href="46.html"><h2>Cosmic Byte GS430</h2></a>
+</div>
+</div><div class="product">
+<img src="47.jpg">
+<div class="p-detail">
+   <a href="47.html"><h2>HyperX Cloud Stinger</h2></a>
+</div>
+</div><div class="product">
+<img src="48.jpg">
+<div class="p-detail">
+   <a href="48.html"><h2> boAt Immortal IM1000D</h2></a>
+</div>
+</div><div class="product">
+<img src="49.jpg">
+<div class="p-detail">
+   <a href="49.html"><h2>Ant Esports H1100 Pro </h2></a>
+</div>
+</div><div class="product">
+<img src="50.jpg">
+<div class="p-detail">
+   <a href="50.html"><h2>Zebronics Jet PRO</h2></a>
+</div>
+</div><div class="product">
+<img src="51.jpg">
+<div class="p-detail">
+   <a href="51.html"><h2>pTron Studio Pixel</h2></a>
+</div>
+</div><div class="product">
+<img src="52.jpg">
+<div class="p-detail">
+   <a href="52.html"><h2>Zebronics Zeb-Blitz</h2></a>
+</div>
+</div><div class="product">
+<img src="53.jpg">
+<div class="p-detail">
+   <a href="53.html"><h2>HyperX Cloud Stinger 2 Core</h2></a>
+</div>
+</div><div class="product">
+<img src="54.jpg">
+<div class="p-detail">
+   <a href="54.html"><h2>CHIPTRONEX Joker X</h2></a>
+</div>
+</div><div class="product">
+<img src="55.jpg">
+<div class="p-detail">
+ <a href="55.html"><h2>HyperX Cloud Stinger 2 Core</h2></a>
+</div>
+</div><div class="product">
+<img src="56.jpg">
+<div class="p-detail">
+   <a href="56.html"><h2>Razer BlackShark V2 X</h2></a>
+</div>
+</div><div class="product">
+<img src="57.jpg">
+<div class="p-detail">
+   <a href="57.html"><h2>Ant Esports H530</h2></a>
+</div>
+</div><div class="product">
+<img src="58.jpg">
+<div class="p-detail">
+   <a href="58.html"><h2>EKSA E800</h2></a>
+</div>
+</div><div class="product">
+<img src="59.jpg">
+<div class="p-detail">
+   <a href="59.html"><h2>HyperX Cloud Core</h2></a>
+</div>
+</div><div class="product">
+<img src="60.jpg">
+<div class="p-detail">
+   <a href="60.html"><h2>ZEBRONICS Zeb-8 BIT </h2></a>
+</div>
+</div><div class="product">
+<img src="61.jpg">
+<div class="p-detail">
+   <a href="61.html"><h2>Ant Esports H1150</h2></a>
+</div>
+</div><div class="product">
+<img src="62.jpg">
+<div class="p-detail">
+   <a href="62.html"><h2>Razer Barracuda X</h2></a>
+</div>
+</div><div class="product">
+<img src="63.jpg">
+<div class="p-detail">
+   <a href="63.html"><h2>ASTRO Gaming A50 (2019 Version) </h2></a>
+</div>
+</div><div class="product">
+<img src="64.jpg">
+<div class="p-detail">
+   <a href="64.html"><h2>ZEBRONICS Crusher</h2></a>
+</div>
+</div><div class="product">
+<img src="65.jpg">
+<div class="p-detail">
+   <a href="65.html"><h2>Gaming Headset K8</h2></a>
+</div>
+</div><div class="product">
+<img src="66.jpg">
+<div class="p-detail">
+   <a href="66.html"><h2>Logitech G335</h2></a>
+</div>
+</div><div class="product">
+<img src="67.jpg">
+<div class="p-detail">
+   <a href="67.html"><h2>Cosmic Byte</h2></a>
+</div>
+</div><div class="product">
+<img src="68.jpg">
+<div class="p-detail">
+   <a href="68.html"><h2>boAt Immortal Im 1300</h2></a>
+</div>
+</div><div class="product">
+<img src="69.jpg">
+<div class="p-detail">
+   <a href="69.html"><h2>Logitech G Pro X</h2></a>
+</div>
+</div><div class="product">
+<img src="70.jpg">
+<div class="p-detail">
+   <a href="70.html"><h2>Logitech G435</h2></a>
+</div>
+</div><div class="product">
+<img src="71.jpg">
+<div class="p-detail">
+   <a href="71.html"><h2>Logitech G535</h2></a>
+</div>
+</div><div class="product">
+<img src="72.jpg">
+<div class="p-detail">
+   <a href="72.html"><h2>EKSA W1</h2></a>
+</div>
+</div><div class="product">
+<img src="73.jpg">
+<div class="p-detail">
+   <a href="73.html"><h2>Corsair Hs35</h2></a>
+</div>
+</div><div class="product">
+<img src="74.jpg">
+<div class="p-detail">
+   <a href="74.html"><h2>EKSA E900</h2></a>
+</div>
+</div><div class="product">
+<img src="75.jpg">
+<div class="p-detail">
+   <a href="75.html"><h2>HyperX Cloud II </h2></a>
+</div>
+</div><div class="product">
+<img src="76.jpg">
+<div class="p-detail">
+   <a href="76.html"><h2>Cosmic Byte G2050</h2></a>
+</div>
+</div><div class="product">
+<img src="77.jpg">
+<div class="p-detail">
+   <a href="77.html"><h2>boAt Immortal IM-200 7.1</h2></a>
+</div>
+</div><div class="product">
+<img src="78.jpg">
+<div class="p-detail">
+   <a href="78.html"><h2>Lenovo Ideapad H100</h2></a>
+</div>
+</div><div class="product">
+<img src="79.jpg">
+<div class="p-detail">
+   <a href="79.html"><h2>Sony INZONE H3</h2></a>
+</div>
+</div><div class="product">
+<img src="80.jpg">
+<div class="p-detail">
+   <a href="80.html"><h2>HP H200</h2></a>
+</div>
+</div><div class="product">
+<img src="81.jpg">
+<div class="p-detail">
+   <a href="81.html"><h2>Cosmic Byte Equinox Orion 7.1</h2></a>
+</div>
+</div><div class="product">
+<img src="82.jpg">
+<div class="p-detail">
+   <a href="82.html"><h2>SteelSeries Arctis 7</h2></a>
+</div>
+</div><div class="product">
+<img src="84.jpg">
+<div class="p-detail">
+   <a href="84.html"><h2>ASUS TUF H3</h2></a>
+</div>
+</div><div class="product">
+<img src="85.jpg">
+<div class="p-detail">
+   <a href="85.html"><h2>SpinBot BattleBudz H1</h2></a>
+</div>
+</div><div class="product">
+<img src="86.jpg">
+<div class="p-detail">
+   <a href="86.html"><h2>Logitech G733</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="87.jpg">
+<div class="p-detail">
+   <a href="87.html"><h2>SteelSeries Arctis 3"</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="88.jpg">
+<div class="p-detail">
+   <a href="88.html"><h2>Razer Kraken Kitty</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="89.jpg">
+<div class="p-detail">
+   <a href="89.html"><h2>MFTEK</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="90.jpg">
+<div class="p-detail">
+   <a href="90.html"><h2>HP X1000</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="91.jpg">
+<div class="p-detail">
+   <a href="91.html"><h2>JBL Quantum 200</h2></a>
+</div>
+</div> <div class="product">
+<img src="92.jpg">
+<div class="p-detail">
+   <a href="92.html"><h2>Logitech G29</h2></a>
+</div>
+</div> <div class="product">
+<img src="93.jpg">
+<div class="p-detail">
+   <a href="93.html"><h2>ELECTROPRIME</h2></a>
+</div>
+</div> <div class="product">
+<img src="94.jpg">
+<div class="p-detail">
+   <a href="94.html"><h2>Razer RZ04</h2></a>
+</div>
+</div> <div class="product">
+<img src="95.jpg">
+<div class="p-detail">
+   <a href="95.html"><h2>sktome</h2></a>
+</div>
+</div> <div class="product">
+<img src="96.jpg">
+<div class="p-detail">
+   <a href="96.html"><h2>ASUS Rog Delta</h2></a>
+</div>
+</div> <div class="product">
+<img src="97.jpg">
+<div class="p-detail">
+   <a href="97.html"><h2>ASUS RGB Gaming</h2></a>
+</div>
+</div> <div class="product">
+<img src="98.jpg">
+<div class="p-detail">
+   <a href="98.html"><h2>Sennheiser GSP 350</h2></a>
+</div>
+</div> <div class="product">
+<img src="99.jpg">
+<div class="p-detail">
+   <a href="99.html"><h2>ASUS ROG Fusion II 500</h2></a>
+</div>
+</div> <div class="product">
+<img src="100.jpg">
+<div class="p-detail">
+   <a href="100.html"><h2>Razer Kraken V3 Pro</h2></a>
+</div>
+</div><d iv class="product">
+<img src="101.jpg">
+<div class="p-detail">
+   <a href="101.html"><h2>JBL Quantum ONE</h2></a>
+</div>
+</div><div class="product">
+<img src="102.jpg">
+<div class="p-detail">
+   <a href="102.html"><h2>Razer Barracuda Pro</h2></a>
+</div>
+</div><div class="product">
+<img src="103.jpg">
+<div class="p-detail">
+   <a href="103.html"><h2>JBL Quantum 800</h2></a>
+</div>
+</div><div class="product">
+<img src="104.jpg">
+<div class="p-detail">
+   <a href="104.html"><h2>Sennheiser HD 820</h2></a>
+</div>
+</div>
+<div class="product">
+<img src="105.jpg">
+<div class="p-detail">
+   <a href="105.html"><h2>HiFiMAN Arya Stealth Magnet</h2></a>
+</div>
+</div>
+</div>
+</section>
+</body>
+
+<script>
+const search=()=>{
+const searchbox= document.getElementById("search-item").value.toUpperCase();
+const storeitem= document.getElementById("product-list")
+const product=document.querySelectorAll(".product")
+const pname=document.getElementsByTagName("h2")
+for(var i=0;i<pname.length;i++){
+let match = product [i].getElementsByTagName('h2')[0];
+if(match){
+let textvalue = match.textContent || match.innerHTML
+if(textvalue.toUpperCase().indexOf(searchbox)>-1){
+product[i].style.display="";
+
+}else{
+product[i].style.display="none";
+ }
+}
+}
+}
+</script>
+</html>

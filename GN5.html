@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone & chills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:28%;
+     left:50%;
+    }
+    .features table th{
+  
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 199%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:370%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:555%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:715%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:890%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1067%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:45%;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+  
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:120%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:203%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:300%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:375%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:460%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:545%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 50%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   } 
+  </style>
+<body>
+    <div class="box">
+        <img src="101.jpg" width="500px" height="500px">
+        <p>JBL Quantum ONE - Over-Ear Performance Gaming Headset
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">helli</a> 
+        </p> 
+    </div>
+    
+    <div class="features">
+    <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+    <tr>
+    <td>
+        
+        Lightweight(369)
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Noise Cancellation
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Volume-Control
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Microphone Feature
+    </td>
+    </tr>
+    <tr>
+    <td>Hybrid Fabric & Leatherette Memory Foam Cushions</td>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div class="filter">
+    <table>
+    <tr>
+    <th>Pros / Advantages</th>
+    <th>
+    Cons / Disadvantages
+    </th>
+    </tr>
+    <tr>
+    <td>Headset is comfy, and the JBL Quantum Engine allows for a respectable level of customization.</td>
+    <td>The boom-mic cannot be adjusted so it’s always sticking out</td>
+    </tr>
+    <tr>
+    <td>The microphone is good</td>
+    <td> The light on the volume control is always on even if the PC is off</td>
+    </tr>
+    <tr>
+    <td>Comfortable (Can wear all day with 0 issues.)</td>
+    <td>The THX spatial audio option that it says should be default sounds awful.</td>
+    </tr>
+    </table></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr> 
+    <div class="box">
+        <img src="102.jpg" width="500px" height="500px">
+        <p>Razer Barracuda Pro Wireless Gaming & Mobile Headset
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">helli</a> 
+        </p> 
+    </div>
+    
+    <div class="features1">
+    <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+    <tr>
+    <td>
+        
+        Hybrid Active Noise Cancellation Technology
+    </td>
+    </tr>
+    <tr>
+    <td>
+        THX Achromatic Audio Amplifier
+    </td>
+    </tr>
+    <tr>
+    <td>
+        TriForce Bio-cellulose 50mm Driver
+    </tr>
+    <tr>
+    <td>
+        Microphone Feature
+    </td>
+    </tr>
+    <tr>
+    <td> SmartSwitch Dual Wireless</td>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div class="filter1">
+    <table>
+    <tr>
+    <th>Pros / Advantages</th>
+    <th>
+    Cons / Disadvantages
+    </th>
+    </tr>
+    <tr>
+    <td>Headset is comfy, and the JBL Quantum Engine allows for a respectable level of customization.</td>
+    <td>The boom-mic cannot be adjusted so it’s always sticking out</td>
+    </tr>
+    <tr>
+    <td>The microphone is good</td>
+    <td> The light on the volume control is always on even if the PC is off</td>
+    </tr>
+    <tr>
+    <td>Comfortable (Can wear all day with 0 issues.)</td>
+    <td>The THX spatial audio option that it says should be default sounds awful.</td>
+    </tr>
+    </table></div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="box">
+        <img src="103.jpg" width="500px" height="500px">
+        <p>JBL Quantum 800 - Wireless Over-Ear Performance Gaming Headset
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">helli</a> 
+        </p> 
+    </div>
+    
+    <div class="features2">
+    <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+    <tr>
+    <td>
+        
+        Lightweight(410g)
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Noise Cancellation
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Volume-Control
+    </tr>
+    <tr>
+    <td>
+        Microphone Feature
+    </td>
+    </tr>
+    <tr>
+    <td> SmartSwitch Dual Wireless</td>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div class="filter2">
+    <table>
+    <tr>
+    <th>Pros / Advantages</th>
+    <th>
+    Cons / Disadvantages
+    </th>
+    </tr>
+    <tr>
+    <td>Stellar sound quality.</td>
+    <td>Active noise cancelling needs some work and for the most part is a gimmick in a gaming headset.</td>
+    </tr>
+    <tr>
+    <td>Solid build quality: they are not light but nowhere near heavy</td>
+    <td> Mic is not very nice</td>
+    </tr>
+    <tr>
+    <td> Earpads are so stinky soft and the memory foam is some of the best</td>
+    <td>The THX spatial audio option that it says should be default sounds awful.</td>
+    </tr>
+    </table></div> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+   
+    <div class="box">
+        <img src="104.jpg" width="500px" height="500px">
+        <p>Sennheiser HD 820 Wired Over The Ear Headphones
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">helli</a> 
+        </p> 
+    </div>
+    
+    <div class="features5">
+    <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+    <tr>
+    <td>
+        
+        Lightweight(508g)
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Closed, circumaural dynamic stereo, headphones
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Natural hearing experience - realistic sound field with minimal resonance
+    </tr>
+    <tr>
+    <td>
+        Glass covered ear cups make the transducer visible
+    </td>
+    </tr>
+    <tr>
+    <td> Noice cancellation</td>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div class="filter5">
+    <table>
+    <tr>
+    <th>Pros / Advantages</th>
+    <th>
+    Cons / Disadvantages
+    </th>
+    </tr>
+    <tr>
+    <td> Incomparable sound quality these headphones come along with it's dedicated Angels freshly brought from Heaven to soothe your soul.</td>
+    <td>Active noise cancelling needs some work and for the most part is a gimmick in a gaming headset.</td>
+    </tr>
+    <tr>
+    <td>Bluetooth v 100.2 available , grooving on it's beats.</td>
+    <td>Noice cancellation is not very good</td>
+    </tr>
+    <tr>
+    <td>Vocals sound so well </td>
+    <td>The THX spatial audio option that it says should be default sounds awful.</td>
+    </tr>
+    </table></div>  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>  
+    <div class="box">
+        <img src="105.jpg" width="500px" height="500px">
+        <p>HiFiMAN Arya Stealth Magnet Version Full-Size Wired Over Ear Headphones
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">helli</a> 
+        </p> 
+    </div>
+    <div class="features6">
+    <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+    <tr>
+    <td>
+        
+        Lightweight(1.5kg)
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Reducing interference in sound wave transmissions from the diaphragm.
+    </td>
+    </tr>
+    <tr>
+    <td>
+        Metal and High-Grade Plastic Construction
+    </tr>
+    <tr>
+    <td>
+        high-grade plastic for lightweight comfort and rugged durability
+    </td>
+    </tr>
+    <tr>
+    <td> Noice cancellation</td>
+    </tr>
+    </table>
+    </div>
+    <br>
+    <div class="filter6">
+    <table>
+    <tr>
+    <th>Pros / Advantages</th>
+    <th>
+    Cons / Disadvantages
+    </th>
+    </tr>
+    <tr>
+    <td> Incomparable sound quality these headphones come along with it's dedicated Angels freshly brought from Heaven to soothe your soul.</td>
+    <td>Active noise cancelling needs some work and for the most part is a gimmick in a gaming headset.</td>
+    </tr>
+    <tr>
+    <td>Bluetooth v 100.2 available , grooving on it's beats.</td>
+    <td>Noice cancellation is not very good</td>
+    </tr>
+    <tr>
+    <td>Vocals sound so well </td>
+    <td>The THX spatial audio option that it says should be default sounds awful.</td>
+    </tr>
+    </table></div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="font">
+
+    <a href="GP4.html">Previous</a>
+    </div>
+</body>
+</html>

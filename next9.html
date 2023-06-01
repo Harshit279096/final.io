@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Headphone & chills</title>
+<link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:28%;
+     left:50%;
+    }
+    .features table th{
+  
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 199%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:370%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:560%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:735%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:930%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1097%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features7 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1280%;
+     left:55%;
+    }
+    .features7 table th{
+     background: #4a48c2;
+    }
+    .features7 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features8 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1460%;
+     left:55%;
+    }
+    .features8 table th{
+     background: #4a48c2;
+    }
+    .features8 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features9 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1640%;
+     left:50%;
+    }
+    .features9 table th{
+     background: #4a48c2;
+    }
+    .features9 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:35%;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+  
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:120%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:203%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:300%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:385%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:480%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:558%;
+    }
+    .filter7{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:650%;
+    }
+    .filter8{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:740%;
+    }
+    .filter9{
+     position:absolute;
+     top:0;
+     left: 3%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:827%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 37%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   }
+  </style>
+<body>
+<div class="box">
+<img src="91.jpg" width="500px"height="500px">
+<p>JBL Quantum 200 Wired Over-Ear Gaming Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features">
+<table>
+   <tr>
+  <th>Features</th>
+   </tr>
+   <tr>
+    <td>Noise Cancellation </td></tr>
+    <tr>
+    <td> 7.1 Surround Sound with Mic</td></tr>
+    <tr>
+     <td>50 mm Drivers</td></tr>
+     <tr>
+      <td>20 Hours of Battery life</td></tr>
+        </table>
+    </div>
+    <div class="filter">
+        <table>
+            <tr>
+      <th>
+          Pros / Advantages
+      </th>
+      <th>
+          Cons / Disadvantages
+      </th>
+            </tr>
+        <tr>
+    
+    <td>Build quality is really good , and looks premium.</td>
+    <td> Clamping force is quite more at first but gets normal with the use .</td>
+        </tr>
+        <tr>
+    <td>  Overall sound is quite soothing to ears </td>
+    <td> Wire quality is good , but inline controller is a bit old design .</td>
+        </tr>
+        <tr>
+    <td>bass is also soothing & good .</td> 
+    <td>3.5 jack connectivity issues</td>
+        </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr> 
+<div class="box">
+<img src="92.jpg" width="500px" height="500px">
+<p>Logitech G29 Wireless Over Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features1">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+33 Lightspeed   
+</td>
+</tr>
+<tr>
+<td>
+Suspension Headband 
+</td>
+</tr>
+<tr>
+<td>
+Lightsync RGB
+</td>
+</tr>
+<tr>
+<td>
+Could have used a type-c port for charging.
+</td>
+</tr>
+</table>
+</div>
+<div class="filter1">
+<table>
+<tr>
+ <th>Pros / advantages</th>
+ <th> Cons / disadvanatges</th>
+</tr>
+<tr>
+<td>
+The FF motor is powerful. Really powerful. 
+</td>
+<td>
+The cable connecting the foot pedals to the wheel looks a little thin and delicate.
+</td>
+</tr>
+<tr>
+<td>
+The wheel has stitched leather and feels amazing grip-wise.
+</td>
+<td>
+The brake pedal is a little stiff but apparently, you can fix it by removing a spring.
+</td>
+</tr>
+<tr>
+<td>
+The overall build of the product is excellent. Feels solid and durable.</td>
+<td>
+USB cable problem.
+</td>
+</tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="box">
+<img src="93.jpg" width="500px" height="500px">
+<p>ELECTROPRIME 3.5mm Wired Gaming Headphone
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features2">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+3.5mm Wired Gaming Headphone  
+</td>
+</tr>
+<tr>
+<td>
+50mm large drive unit
+</td>
+</tr>
+<tr>
+<td>
+noise reduction microphone
+</td>
+</tr>
+<tr>
+<td>
+skin friendly and comfortable 
+</td>
+</tr>
+</table>
+</div>
+<div class="filter2">
+<table>
+<tr>
+ <th>Pros / advantages</th>
+ <th> Cons / disadvanatges</th>
+</tr>
+<tr>
+<td>
+The FF motor is powerful. Really powerful. 
+</td>
+<td>
+The cable connecting the foot pedals to the wheel looks a little thin and delicate.
+</td>
+</tr>
+<tr>
+<td>
+The wheel has stitched leather and feels amazing grip-wise.
+</td>
+<td>
+The brake pedal is a little stiff but apparently, you can fix it by removing a spring.
+</td>
+</tr>
+</table>
+</div>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+<div class="box">
+<img src="94.jpg" width="500px" height="500px">
+<p>Razer RZ04-02980200-R3M1 RGB Kitty Ears Chroma USB Gaming Wired Over Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features3">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+Stream-reactive Lighting
+</td>
+</tr>
+<tr>
+<td>
+Active noise-cancetdng microphone
+</td>
+</tr>
+<tr>
+<td>
+THX Spatial Audio
+</td>
+</tr>
+<tr>
+<td>
+Cooling-gel ear cushions
+</td>
+</tr>
+</table>
+</div>
+<div class="filter3">
+<table>
+<tr>
+<th>Pros / advantages</th>
+<th> Cons / disadvanatges</th>
+   </tr>
+   <tr>
+   <td>
+   Battery quality is exceptional.(8-10 hours)
+   </td>
+   <td>
+   Noise Cancellation is not good.
+   </td>
+   </tr>
+   <tr>
+   <td>
+Bass is damn deep, even the earcups vibrate.
+   </td>
+   <td>
+   There is sound leakage when you listening music in high volume. 
+   </td>
+   </tr>
+   <tr>
+   <td>
+   Sometimes the sound quality is way too crisp</td>
+   <td>
+   Cable is short.
+   </td>
+   </tr>
+   </table>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="box">
+<img src="95.jpg" width="500px" height="500px">
+<p>sktome Gaming Voice Changer Headset 
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features4">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+Cool LED light
+</td>
+</tr>
+<tr>
+<td>
+Over-Ear Headphones with Volume Control
+</td>
+</tr>
+<tr>
+<td>
+Noise Reduction Voice Changer Gaming Headset 
+</td>
+</tr>
+<tr>
+<td>
+Cooling-gel ear cushions
+</td>
+</tr>
+</table>
+</div>
+<div class="filter4">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td>Sound quality is good.</td>
+<td>The bass quality is ok.</td>
+</tr>
+<tr>
+<td>Bass also ok for not long time use.</td>
+<td>In this range you can explore other headphones.</td>
+</tr>
+<tr>
+<td>No connectivity issues.</td>
+<td>build quality is also average as they are made up of only plastic.</td>
+</tr>
+<tr>
+<td>Connects perfect with Aux cable and Pc.</td>
+</tr>
+<tr>
+<td>Battery Backup is awsm.</td>
+</tr>
+<tr>
+<td>It charges quickly.</td>
+</tr>
+</table>
+</div> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+ <hr>
+<div class="box">
+<img src="96.jpg" width="500px" height="500px">
+<p>ASUS Rog Delta Wired On Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+<div class="features5">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+Detail-rich audio
+</td>
+</tr>
+<tr>
+<td>
+127Db Signal-to-Noise ratio
+</td>
+</tr>
+<tr>
+<td>
+Aura Sync RGB LED lighting outshines the competition
+</td>
+</tr>
+<tr>
+<td>
+Headphones Jack: Usb
+</td>
+</tr>
+</table>
+</div>
+<div class="filter5">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td>built well,high quality feel.</td>
+<td>in-line options are lacking</td>
+</tr>
+<tr>
+<td>RGB lights are bright and look nice</td>
+<td>there is only a volume switch and an rgb switch built in..</td>
+</tr>
+<tr>
+<td>Cusion are very comfortable</td>
+<td>shortest length is still too large</td>
+</tr>
+</table></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<div class="box">
+   
+<img src="97.jpg" width="500px" height="500px">
+<p>ASUS RGB Gaming Wired Headset
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features6">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+ROG Delta with Detachable Mic
+</td>
+</tr>
+<tr>
+<td>
+Hi-Res ESS Quad-DAC
+</td>
+</tr>
+<tr>
+<td>
+Circular RBG lighting Effect
+</td>
+</tr>
+<tr>
+<td>
+USB-C Connector for Pcs, Consoles, and Mobile Gaming
+</td>
+</tr>
+</table>
+</div>
+<div class="filter6">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td>Color, both physical and tdghting</td>
+<td>having the tdghting feature on really heats up your ears</td>
+</tr>
+<tr>
+<td>Cord lenghth (plenty long)</td>
+<td>MIC DOES NOT LIFT UP.</td>
+</tr>
+<tr>
+<td>cancel outside noises</td>
+<td>not crazy about the sound quatdty</td>
+</tr>
+</table></div>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+<div class="box">
+    
+<img src="98.jpg" width="500px" height="500px">
+<p>Sennheiser GSP 350 Wired Over The Ear Headphones
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features7">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+Dolby 7.1 surround sound to immerse yourself in the game
+</td>
+</tr>
+<tr>
+<td>
+Professional noise-canceltdng microphone
+</td>
+</tr>
+<tr>
+<td>
+Volume control on right ear cup provides "on-the-fly" level adjustment
+</td>
+</tr>
+<tr>
+<td>
+Lift to mute microphone feature shuts off in game communication
+</td>
+</tr>
+</table>
+</div>
+<div class="filter7">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td>Excellent seal around the ears for noise cancellation</td>
+<td>heat will build up around the ears after awhile.</td>
+</tr>
+<tr>
+<td>split headband feels more comfortable then most other gaming headsets</td>
+<td>raise mic to mute yourself</td>
+</tr>
+<tr>
+<td>software is low maintenance and simple to use</td>
+<td>No noticeable hiss from the usb connection</td>
+</tr>
+</table></div> 
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+<div class="box">
+<img src="99.jpg" width="500px" height="500px">
+<p>ASUS ROG Fusion II 500 Gaming Headset
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features8">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+AI Beamforming Mic
+</td>
+</tr>
+<tr>
+<td>
+7.1 Surround Sound
+</td>
+</tr>
+<tr>
+<td>
+Hi-Res ESS 9280 Quad DAC
+</td>
+</tr>
+<tr>
+<td>
+3.5mm, USB-C
+</td>
+</tr>
+</table>
+</div>
+<div class="filter8">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td>Excellent seal around the ears for noise cancellation</td>
+<td>heat will build up around the ears after awhile.</td>
+</tr>
+<tr>
+<td>split headband feels more comfortable then most other gaming headsets</td>
+<td>raise mic to mute yourself</td>
+</tr>
+<tr>
+<td>software is low maintenance and simple to use</td>
+<td>No noticeable hiss from the usb connection</td>
+</tr>
+</table></div>
+<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br> 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr> 
+<div class="box">
+<img src="100.jpg" width="500px" height="500px">
+<p>Razer Kraken V3 Pro HyperSense Wireless Gaming Headset
+<br>
+<br>
+<br>
+<a href="http://www.google.com/">hi</a> 
+<br>
+<a href="http://www.google.com/">heltd</a> 
+</p> 
+</div>
+
+<div class="features9">
+<table>
+<tr>
+<th>Features</th>
+</tr>
+<tr>
+<td>
+
+Haptic Technology
+</td>
+</tr>
+<tr>
+<td>
+Triforce Titanium 50mm Drivers
+</td>
+</tr>
+<tr>
+<td>
+THX Spatial Audio
+</td>
+</tr>
+<tr>
+<td>
+Hyperspeed Wireless
+</td>
+</tr>
+<tr>
+<td>Hybrid Fabric & Leatherette Memory Foam Cushions</td>
+</tr>
+</table>
+</div>
+
+<div class="filter9">
+<table>
+<tr>
+<th>Pros / Advantages</th>
+<th>
+Cons / Disadvantages
+</th>
+</tr>
+<tr>
+<td> Great battery tdfe</td>
+<td>Haptics sound rough. .</td>
+</tr>
+<tr>
+<td>Great mic </td>
+<td> Little to no swivel on the ear cups for adjusting on your head.</td>
+</tr>
+<tr>
+<td>Comfortable (Can wear all day with 0 issues.)</td>
+<td>The THX spatial audio option that it says should be default sounds awful.</td>
+</tr>
+</table></div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br> 
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="font">
+
+<a href="Pre8.html">Previous</a>
+<a href="next10.html">Next</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,1237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone & chills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:23%;
+     left:50%;
+    }
+    .features table th{
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 170%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:335%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:517%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:677%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:845%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1020%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features7 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1190%;
+     left:55%;
+    }
+    .features7 table th{
+     background: #4a48c2;
+    }
+    .features7 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features8 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1350%;
+     left:55%;
+    }
+    .features8 table th{
+     background: #4a48c2;
+    }
+    .features8 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+ 
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:107%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:193%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:274%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:350%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:440%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:520%;
+    }
+    .filter7{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:610%;
+    }
+    .filter8{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:680%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 37%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   } 
+</style>
+<body>
+    <div class="box">
+        <img src="11.jpg" width="500px" height="500px">
+        <p>Ambrane RangerZ 2-in-1 Wireless Headphones with Mic + Speakers
+            <br>
+            <br>
+            <br>
+            <a href="http://www.google.com/">hi</a> 
+            <br>
+            <a href="http://www.google.com/">helli</a> 
+            </p> 
+            </div>
+            
+        <div class="features">
+       <table>
+        <tr>
+            <th>Features</th>
+        </tr>
+        <tr>
+        <td>40mm Drivers with BoostedBass</td></tr>
+        <tr>
+         <td>Bluetooth V5.1</td></tr>
+         <tr>
+         <td>180° Rotatable</td></tr>
+         <tr>
+         <td>AUX & SD Card Support</td></tr>
+         <tr>
+         <td>Smart Buttons</td></tr>
+       </table>
+        </div>
+        <div class="filter">
+        <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>
+         <td>Good sound quality.</td>
+         <td>Bad build and very weak</td>
+        </tr>
+        <tr>
+         <td>Premium feel.</td>
+         <td>The charging last for only 1 hour after a few months of use</td>
+        </tr>
+        <tr>
+         <td>Excellent battery life</td>
+         <td>Bass quality is not good</td>
+        </tr>
+        </table>
+        </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="box">
+        <img src="13.jpg"width="500px" height="500px">
+    <p>Boult Audio Probass Anchor Active Noise Cancellation Bluetooth Wireless Over Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+        <div class="features1">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>            
+    <td>ANC</td></tr>
+    <tr>
+    <td>30 Hr Playtime</td></tr>
+    <tr>
+    <td>Voice assistant</td></tr>
+    <tr>
+    <td>Extra Bass</td></tr>
+    <tr>
+    <td>Comfort Fit</td></tr>
+    <tr>
+    <td>Superior Gaming Experience</td></tr>
+            </table>
+        </div>
+    <div class="filter1">
+        <table>
+        <tr>
+            <th>
+                Pros / Advantages
+            </th>
+            <th>
+                Cons / Disadvantages
+            </th>
+        </tr>
+    <tr>
+
+    <td>Great build quality (plastic build)</td>
+    <td>Wired audio break with anc mode while running</td>
+    </tr>
+    <tr>
+    <td>Battery life</td>
+    <td>Mic quality okkish</td>
+    </tr>
+    <tr>
+    <td>ANC amazing</td>
+    <td>Micro usb</td>
+    </tr>
+    <tr>
+    <td>Have slider for anc on off no need to switch on the headphones</td>
+    <td>Not for pure bass lovers</td>
+    </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="box">
+        <img src="14.jpg"width="500px" height="500px">
+    <p>Hammer Bash 2.0 Over The Ear Wireless Bluetooth Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+
+        <div class="features2">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>            
+    <td>Sweatproof</td></tr>
+    <tr>
+    <td>Foldable</td></tr>
+    <tr>
+    <td>Big Battery</td></tr>
+    <tr>
+    <td>Super Comfy Design</td></tr>
+    <tr>
+    <td>Bluetooth v5.0</td></tr>
+    <tr>
+    <td>Deep bass</td></tr>
+    <tr>
+    <td>HD Sound</td></tr>
+    <tr>
+    <td>Combo of Aux Cable</td></tr>
+            </table>
+        </div>
+        <div class="filter2">
+            <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>
+    <td>Beautiful looking headphones with great bass and sound quality.</td>
+    <td>The battery backup is not so good (7-8 hours).</td>
+        </tr>
+        <tr>
+
+    <td>Wired 3.5mm jack comes along with the package with mic. And the jack is also pretty long.</td>
+    <td>Wired audio break with anc mode while running</td>
+        </tr>
+        <tr>
+    <td>Good quality packaging.</td>
+    <td>Mic quality okkish</td></tr>
+    <tr>
+    <td>Looks and feels premium.</td>
+    <td>Not for pure bass lovers</td>
+    
+    </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+        <div class="box">
+        <img src="15.jpg"width="500px" height="500px">
+    <p>Sony Extra Bass MDR-XB450AP On-Ear Wired  Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+        <div class="features3">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>            
+    <td>Noise cancelling</td></tr>
+    <tr>
+     <td>Water Resistant</td></tr>
+     <tr>
+     <td>BLuetooth & Aux Cable enabled Headphone</td></tr>
+     <tr> 
+     <td>Padded Cushioning</td></tr>
+     <tr>
+     <td>Deep Bass</td></tr>
+     <tr>
+    <td>Voice Assistant</td></tr>
+    <tr>
+    <td>Tangle free cord</td></tr>
+            </table>
+        </div>
+        <div class="filter3">
+            <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>    
+   
+    <td>The sound quality is very good in this range. </td>
+    <td>Bass is not nice</td>
+        </tr>
+    <tr>
+    <td>Bluetooth connectivity is quite exceptional.</td>  
+    <td>Battery is not exceptional</td>
+    </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+    <img src="16.jpg"width="500px" height="500px">
+    <p>Jabra Evolve2 65 Link380a MS Bluetooth Wireless On Ear Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+        <div class="features4">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>             
+    <td>Microphone</td></tr>
+    <tr>
+        <td>Wireless</td></tr>
+        <tr>
+        <td>Bluetooth 5.0</td></tr>
+        <tr>
+        <td>Built-In Mic</td></tr>
+        <tr>
+        <td>35 hours of battery life</td></tr>
+        <tr>
+        <td>A 10-minute quick charge with the Type-C cable will give you up to 90 minutes of play.</td>
+        </tr>
+            </table>
+        </div>
+        <div class="filter4">
+            <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>    
+       
+        <td>Battery life is very good.</td>
+        <td>Produce echo when you on a call (sometimes).</td>
+        </tr>
+        <tr>
+        <td>Sound quality also nice.</td>
+        <td>Music is multitimes PAUSE by automatically.</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="17.jpg"width="500px" height="500px">
+    <p>Tribit XFree Go Headphones with Mic
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+    </div>
+    <div class="features5">
+        <table>
+            <tr>
+                <th>Features</th>
+            </tr>
+<tr>             
+    
+     <td>Wireless Bluetooth Headphone</td> 
+</tr>
+<tr>
+    <td>HiFi Sound</td>
+</tr>
+<tr>
+    <td>Deep Bass</td></tr>
+    <tr>
+    <td>Lightweight</td></tr>
+    <tr>
+    <td>Type-C Lightening Fast Charge</td></tr>
+    <tr>
+     <td>Voice Control</td></tr>
+     <tr>
+    <td>Battery still works perfectly.</td></tr>
+    <tr>
+    <td>Sound quality is very good.</td></tr>
+    <tr>
+    <td>Noise cancellation is awesome.</td>
+    </tr>
+        </table>
+    </div>
+    <div class="filter5">
+        <table>
+        <tr>
+            <th>
+                Pros / Advantages
+            </th>
+            <th>
+                Cons / Disadvantages
+            </th>
+        </tr>
+    <tr>    
+    <td>Well built tuff case</td>
+    <td>Wired audio break with anc mode while running</td>
+    </tr>
+    <tr>
+    <td>Great build quality (plastic build)</td>
+    <td>Mic quality okkish</td>
+    </tr>
+    <tr>
+    <td>Battery life</td>
+    <td>Micro usb</td>
+    </tr>
+    <tr>
+    <td>ANC amazing</td>
+    <td>Not for pure bass lovers</td>
+    </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <div class="box">
+        <img src="18.jpg"width="500px" height="500px">
+    <p>Infinity JBL Glide 510
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+       
+        <div class="features6">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>             
+        
+    
+     <td>72 Hrs Playtime with Quick Charge</td></tr>
+     <tr>
+     <td>Wireless On Ear Headphone with Mic</td></tr>
+     <tr>
+     <td>Deep Bass</td></tr>
+     <tr>
+     <td>Dual Equalizer</td></tr>
+     <tr>
+     <td>Bluetooth 5.0 with Voice Assistant Support</td> 
+     </tr>
+            </table>
+        </div>
+        <div class="filter6">
+            <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>    
+    <td>It has a long lasting battery as about 72hrs</td>
+    <td>Micro usb</td></tr>
+    <tr>
+    <td>This thing is a beast regarding bass and sound quality</td>
+    <td>Produce echo when you on a call (sometimes).</td></tr>
+    <tr>
+    <td>Its just great because its version 5.0 and provide greater range even after.</td>
+    <td>Bass quality is not good</td></tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="19.jpg" width="500px" height="500px">
+       <p>Bose Noise Cancelling 700 Bluetooth Wireless Over Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+        <div class="features7">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+    <tr>             
+    <td>Noise Cancelling</td></tr>
+    <tr>
+     <td> Bluetooth</td></tr>
+     <tr>
+      <td>4 Mic</td></tr>
+      <tr>
+      <td>Mounting Hardware</td></tr>
+      <tr>
+       <td>USB Charging Cable</td></tr>
+       <tr>
+       <td> Audio Cable</td>
+       </tr>
+            </table>
+        </div>
+        <div class="filter7">
+            <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>    
+       <td>ANC is awesome.</td>  
+       <td>Become uncomfortablein wind.</td></tr>
+       <tr>
+       <td>Sound quality is pretty good</td>
+       <td>Wired audio break with anc mode while running</td>
+       </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="20.jpg" width="500px"height="500px">
+       <p>Melomane Melophones Opera Upto 24Hrs Playback,40Mm Drivers,
+        Soft Padded Ear Cushions & Physical Noise Isolation Bluetooth Wireless Over The Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">helli</a> 
+        </p> 
+        </div>
+       
+    </div>
+    <div class="features8">
+        <table>
+            <tr>
+                <th>Features</th>
+            </tr>
+<tr>             
+        <td>Ultra Comfortable in wearing (Soft Earcups)</td></tr>
+        <tr>
+        <td>400 mAh Lithium Big Battery (Standby Time 120 Hours)</td></tr>
+        <tr>
+        <td>40mm HD Sound</td></tr>
+        <tr>
+        <td>ABS Plastic + TPE + Metal Body</td>
+        </tr>
+        </table>
+    </div>
+    <div class="filter8">
+        <table>
+        <tr>
+            <th>
+                Pros / Advantages
+            </th>
+            <th>
+                Cons / Disadvantages
+            </th>
+        </tr>
+    <tr>    
+        <td>Good sound quality.</td>
+        <td>sometime feel uncomfortable</td></tr>
+        <tr>
+        <td>Excellent battery life</td>
+        <td>Not good bass</td>
+        </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="font">
+    <a href="Explore.html">Previous</a>
+    <a href="next2.html">Next</a>
+    </div>
+</body>
+</html>

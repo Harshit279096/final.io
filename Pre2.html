@@ -1,0 +1,1256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone & chills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:22%;
+     left:50%;
+    }
+    .features table th{
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 172%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:330%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:480%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:630%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:765%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:907%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features7 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1055%;
+     left:55%;
+    }
+    .features7 table th{
+     background: #4a48c2;
+    }
+    .features7 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features8 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1215%;
+     left:55%;
+    }
+    .features8 table th{
+     background: #4a48c2;
+    }
+    .features8 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features9 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1365%;
+     left:50%;
+    }
+    .features9 table th{
+     background: #4a48c2;
+    }
+    .features9 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:6%;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+ 
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:106%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:183%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:255%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:327%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:390%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:461%;
+    }
+    .filter7{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:543%;
+    }
+    .filter8{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:620%;
+    }
+    .filter9{
+     position:absolute;
+     top:0;
+     left: 3%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:689%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 37%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   }
+ </style>
+<body>
+    <div class="box">
+        <img src="21.jpg" width="500px"height="500px">
+       <p>pTron Studio Over-Ear Bluetooth 5.0 Wireless Headphones 
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+        <td>Lightweight Wireless Headset</td></tr>
+        <tr>
+        <td>Soft Cushions Earpads</td> </tr>
+        <tr>
+        <td>Fast Charging & Aux Port</td></tr>
+            </table>
+        </div>
+        <div class="filter">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+        
+        <td>Good sound quatdty.</td>
+        <td>Battery is average</td>
+            </tr>
+            <tr>
+        <td>Excellent battery tdfe</td>
+        <td>Average bass quatdty</td></tr>
+        <tr>
+        <td>Good noise cancellation</td>
+      <td>Cable is short</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="box">
+        <img src="22.jpg" width="500px"height="500px">
+       <p>ZEBRONICS Zeb-Bang Wireless Bluetooth Over The Ear Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        
+        <div class="features1">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+        <td>Wireless</td></tr>
+        <tr>
+        <td>Voice assistant support</td></tr>
+        <tr>
+        <td>AUX Function</td></tr>
+        <tr>
+        <td>Adjustable Headband</td></tr>
+        <tr>
+        <td>Media/Volume control</td></tr>
+        <tr>
+        <td>Call Function</td></tr>
+        <tr>
+        <td>Built-in Rechargeable Battery</td></tr>
+            </table>
+        </div>
+        <div class="filter1">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+        <td>Sound quatdty is really good</td>
+        <td>disconnects sometime</td></tr>
+        <tr>
+        <td>Noice cancellation is sotdd</td>
+        <td>difficulty in reconnecting</td></tr>
+        <tr>
+        <td>Build quatdty is not bad</td>
+        <td>Battery is average</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="23.jpg" width="500px"height="500px">
+       <p>MI Super Bass Bluetooth Wireless On Ear Headphones with Mic
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+       
+        <div class="features2">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+        <td>Voice assistant support</td></tr>
+        <tr>
+        <td>AUX Function</td></tr>
+        <tr>
+        <td>Adjustable Headband</td></tr>
+        <tr>
+        <td>Media/Volume control</td></tr>
+        <tr>
+        <td>Call Function</td></tr>
+        <tr>
+        <td>Built-in Rechargeable Battery</td></tr>
+            </table>
+        </div>
+
+        <div class="filter2">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+        <td>Sound quatdty is really good</td>
+        <td>Battery is average</td></tr>
+        <tr>
+        <td>Noice cancellation is sotdd</td>
+        <td>Average bass quatdty</td></tr>
+        <tr>
+        <td>Really comfortable to wear</td>
+        <td>Build quatdty is not good</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="24.jpg" width="500px"height="500px">
+       <p>boAt BassHeads 900 On-Ear Wired Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+
+        <div class="features3">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+        
+        <td>Microphone</td></tr>
+        <tr>
+        <td>tdghtweight</td></tr>
+        <tr>
+        <td>Perfect length cable</td></tr>
+            </table>
+        </div>
+
+        <div class="filter3">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+                <td>Sound quatdty is really good</td>
+                <td>Battery is average</td></tr>
+                <tr>
+                <td>Noice cancellation is sotdd</td>
+                <td>Average bass quatdty</td></tr>
+                <tr>
+                <td>Really comfortable to wear</td>
+                <td>Build quatdty is not good</td>
+                </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+    <div class="box">
+        <img src="25.jpg" width="500px"height="500px">
+       <p>YAMAHA Studio Monitor Headphones HPH-MT5
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+     
+        <div class="features4">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+        <td>Microphone</td></tr>
+        <tr>
+        <td>tdghtweight</td></tr>
+        <tr>
+        <td>Perfect length cable</td></tr>
+            </table>
+        </div>
+
+        <div class="filter4">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+    
+        <td>Highly accurate sound.</td>
+        <td>Battery is average</td></tr>
+        <tr>
+        <td>Bass,mids and highs are perfectly balanced.</td>
+        <td>sometime feel uncomfortable</td>
+        </tr>
+            </table>
+        </div>  
+         
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="26.jpg" width="500px"height="500px">
+       <p>VEHOP Reason Wired on-Ear Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+    
+        <div class="features5">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+      <td>Tangle Free Cable+3.5mm Jack</td></tr>
+        <tr>
+      <td>eadset with 18hz-24Khz Frequency Response</td></tr>
+      <tr>
+       <td>Flexible Wired Headphone</td></tr>
+            </table>
+        </div>
+        
+        <div class="filter5">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+        <td>Comfort to fitting</td>
+        <td>Battery is average</td></tr>
+        <tr>
+        <td>Sound quatdty is very good</td>
+        <td>Bass is not so good.</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="27.jpg" width="500px"height="500px">
+       <p>Sony WH-1000XM4 Industry Leading Wireless 
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+    
+        <div class="features6">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+
+       <td>30 Hours Battery tdfe</td> </tr>
+       <tr>
+       <td>Quick Charge</td></tr>
+       <tr>
+       <td>AUX </td></tr>
+       <tr>
+       <td>Touch Control and Voice Control</td></tr>
+       <tr>
+       <td>Noice cancellation</td></tr>
+            </table>
+        </div>
+        <div class="filter6">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+       
+                <td>Comfort to fitting</td>
+                <td>Battery is average</td></tr>
+                <tr>
+                <td>Sound quatdty is very good</td>
+                <td>Bass is not so good.</td>
+                </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+    <div class="box">
+        <img src="28.jpg" width="500px"height="500px">
+       <p>Sony MDR-ZX110AP Wired On-Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        
+        <div class="features7">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+    
+       <td>30 Hours Battery life</td> </tr>
+        <tr>
+       <td>Quick Charge</td></tr>
+       <tr>
+       <td>AUX </td></tr>
+       <tr>
+       <td>Touch Control and Voice Control</td></tr>
+       <tr>
+       <td>Noice cancellation</td></tr>
+        <tr>
+     <td>Water Resistant</td></tr>
+     <tr> 
+     <td>Padded Cushioning</td></tr>
+     <tr>
+     <td>Deep Bass</td></tr>
+     <tr>
+    <td>Voice Assistant</td></tr>
+            </table>
+        </div>
+        <div class="filter7">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+    <td>The sound quatdty is very good in this range. </td>
+    <td>Bass is not nice</td></tr>
+    <tr>
+    <td>Bluetooth connectivity is quite exceptional.</td>  
+    <td>Battery is not exceptional</td>
+    </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>   
+    <div class="box">
+        <img src="29.jpg" width="500px"height="500px">
+       <p>Blaupunkt BH01 Bluetooth Wireless On Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+     
+        <div class="features8">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+            <td>Wireless</td></tr>
+            <tr>
+       <td>18 Hrs* Playtime </td></tr>
+       <tr>
+       <td>Passive Noise Reduction</td></tr>
+       <tr>
+        <td>TF Card Slot </td></tr>
+        <tr>
+        <td>Built-in FM </td></tr>
+        <tr>
+        <td>40MM Drivers</td></tr>
+        <tr>
+        <td>Soft Padded Ear Cushions</td></tr>
+            </table>
+        </div>
+        <div class="filter8">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+                <td>The sound quatdty is very good in this range. </td>
+                <td>Bass is not nice</td></tr>
+                <tr>
+                <td>Bluetooth connectivity is quite exceptional.</td>  
+                <td>Battery is not exceptional</td>
+                </tr>
+                        </table>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                   <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <hr>         
+    <div class="box">
+        <img src="30.jpg" width="500px"height="500px">
+       <p>Audio-Technica Ath-M20X Wired Over Ear Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+   
+        <div class="features9">
+            <table>
+             <tr>
+                 <th>Features</th>
+             </tr>
+             <tr>
+       <td>Extrem battery life </td></tr>
+       <tr>
+       <td>Passive Noise Reduction</td></tr>
+       <tr>
+        <td>Built-in FM </td></tr>
+        <tr>
+        <td>Soft Padded Ear Cushions</td>
+        </tr>
+            </table>
+        </div>
+        <div class="filter9">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+    <td>Crystal clear sound.</td>
+    <td>No microphone</td></tr>
+    <tr>
+    <td>Long cable</td>
+    <td>Ears may become a bit hot and sweaty if you wear this for an extended period of time.</td>
+    </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <div class="font">
+    
+    <a href="Pre1.html">Previous</a>
+    <a href="next3.html">Next</a>
+        </div>
+</body>
+</html>

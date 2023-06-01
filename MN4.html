@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone & chills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+  .box{
+   display: flex;
+   text-align: center;
+  }
+  .box p{
+   margin-top: 10%;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: x-large;
+  }
+  .box p a{
+   margin-top:10%;
+  }
+  .features table{
+   margin-left: 10%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   top:25%;
+   left:50%;
+  }
+  .features table th{
+   background: #4a48c2;
+  }
+  .features table tr:nth-child(odd){
+   background: #ced2f8;
+  }
+  .features1 table{
+   margin-left: 10%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   top: 172%;
+   left:50%;
+  }
+  .features1 table th{
+   background: #4a48c2;
+  }
+  .features1 table tr:nth-child(odd){
+   background: #ced2f8;
+  }
+  .features2 table{
+   margin-left: 10%;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: x-large;
+   top:320%;
+   left:50%;
+  }
+  .features2 table th{
+   background: #4a48c2;
+  }
+  .features2 table tr:nth-child(odd){
+   background: #ced2f8;
+  } 
+  .filter{
+   position: absolute;
+   top:6%;
+   left: 0%;
+   right: 0%;
+   bottom:0;
+   z-index:1;
+   opacity: 7;
+  }
+  table{
+   position: absolute;
+   z-index:2;
+   left:60%;
+   top:60%;
+   margin-top: 32%;
+   transform: translate(-50%,-50%);
+   width:60%;
+   background: #fafafa;
+   text-align: center;
+   border-collapse: collapse;
+   border-spacing: 0;
+   border-radius: 12px 12px rgba(32,32,32,.3);
+   overflow: hidden;
+  }
+  th,td{
+   padding: 10px 15px;
+
+  }
+  th{
+   background: #ba68c8;
+   color: #fafafa;
+   font-family: 'Roboto',sans-serif;
+   font-size: x-large;
+  } 
+  td{
+   font-family: 'Open Sans',sans-serif;
+   font-size: x-large;
+  }
+  tr:nth-child(odd){
+   background-color: rgb(247, 237, 244);
+  }
+  .filter1{
+   position: absolute;
+   top:0;
+   left: 0%;
+   right: 0%;
+   bottom:0;
+   z-index:1;
+   opacity: 7;
+   margin-top:100%;
+  }
+  .filter2{
+   position: absolute;
+   top:0;
+   left: 0%;
+   right: 0%;
+   bottom:0;
+   z-index:1;
+   opacity: 7;
+   margin-top:173%;
+  }
+  .font a{
+    position: relative;
+    display: inline-block;
+    color: #ced2f8;
+    font-size: 1.5em;
+    letter-spacing: .1em;
+    text-decoration: none;
+    text-transform: uppercase;
+    background: #0c0202;
+    padding: 10px 30px;
+    transition: .5s;
+    transition-delay:.5s;
+    margin-left: 37%;
+
+ }
+ .font a:hover{
+   color: #00eeff;
+   letter-spacing: .25em;
+   text-shadow: 0 0 5px #00eeff;
+   transition-delay: .1ms;
+ }
+.font a span{
+  position: absolute;
+  display: block;
+  background: #00eeff;
+  box-shadow: 0 0 5px #00eeff;
+
+ }
+ .font a span:nth-child(1){
+  left: 0;
+  top: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .5s;
+ }
+ .font a:hover span:nth-child(1){
+  transform: scaleX(1);
+  transform-origin: right;
+ } 
+ .font a span:nth-child(2){
+  left: 0;
+  top: 0;
+  width: 50.5%;
+  height: 1.5px;
+  transform-origin: right;
+
+  transform: scaleX(0);
+  transition: transform .5s;
+ }
+.font  a:hover span:nth-child(2){
+  transform: scaleX(1);
+  transform-origin: right;
+ }
+.font a span:nth-child(3){
+  left: 0;
+  top: 0;
+  width:1.5px;
+  height: 100%;
+  transform-origin:bottom;
+
+   transform: scaleY(0);
+  transition: transform .5s;
+  transition-delay:.4s;
+ }
+ .font a:hover span:nth-child(3){
+  transform: scaleY(1);
+  transform-origin: top;
+ }
+ .font a span:nth-child(4){
+  left: 0;
+  top: 0;
+  width:1.5px;
+  height: 100%;
+  transform-origin:bottom;
+
+  transform: scaleY(0);
+  transition: transform .5s;
+  transition-delay:.4s;
+
+ }
+ .font a:hover span:nth-child(4){
+  transform: scaleY(1);
+  transform-origin: top;
+ }
+ .font a span:nth-child(5){
+  left: 0;
+  bottom : 0; 
+  width: 50.5%;
+  height: 1.5px;
+  transform-origin:left;
+  transform: scaleX(0);
+  transition: transform .5s;
+  transition-delay: .8s;
+ }
+ .font a:hover span:nth-child(5){
+  transform: scaleX(1);
+  transform-origin:left;
+ } 
+ .font a span:nth-child(6){
+  left: 0;
+  bottom : 0; 
+  width: 50.5%;
+  height: 1.5px;
+  transform-origin:right;
+
+  transform: scaleX(0);
+  transition: transform .5s;
+  transition-delay: .8s;
+ }
+ .font a:hover span:nth-child(6){
+  transform: scaleX(1);
+  transform-origin:right;
+ }
+</style>
+<body>
+    <div class="box">
+        <img src="41.jpg" width="500px"height="500px">
+       <p> Macmerise The Dark Knight On-Ear Bluetooth Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+
+        <div class="features">
+      <table>
+    <tr>
+        <th>Features</th>
+    </tr>
+    <tr>
+       <td>10 Hours Playback</td></tr>
+      <tr>
+        <td>FM Radio</td></tr>
+        <tr>
+        <td>SD Card</td></tr>
+        <tr>
+        <td>Soft Padded Ear Cushions and Passive Noise Isolation</td></tr>
+        <tr>
+        <td>Decibel Wireless Headphone</td></tr>
+      </table>
+        </div>
+      
+        <div class="filter">
+      <table>
+    <tr>
+        <th>
+      Pros / Advantages
+        </th>
+        <th>
+      Cons / Disadvantages
+        </th>
+    </tr>
+      <tr>
+    <td>Light weight and Comfortable to wear.</td>
+    <td>Thin wires and should handle it very carefully .</td></tr>
+    <tr>
+    <td>Great sound quality.</td>
+    <td>Not for bass lovers</td></tr>
+      </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+       <hr>
+    <div class="box">
+        <img src="42.jpg" width="500px"height="500px">
+       <p> OneOdio Over Ear Headphones Studio Wired Bass Headsets
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+
+        <div class="features1">
+      <table>
+    <tr>
+        <th>Features</th>
+    </tr>
+    <tr>
+      <td> 50mm Driver </td></tr>
+    <tr>
+       <td>Foldable lightweight Headphones with Shareport</td></tr>
+       <tr>
+        <td>Mic for DJ Monitoring Mixing Guitar PC TV with microphone</td></tr>
+      </table>
+        </div>
+        
+        <div class="filter1">
+      <table>
+    <tr>
+        <th>
+      Pros / Advantages
+        </th>
+        <th>
+      Cons / Disadvantages
+        </th>
+    </tr>
+      <tr>
+    <td>Light weight and Comfortable to wear.</td>
+    <td>Thin wires and should handle it very carefully .</td></tr>
+    <tr>
+    <td>Great sound quality.</td>
+    <td>Not for bass lovers</td></tr>
+      </table>
+       </div>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br>
+       <br> 
+       <hr>
+    <div class="box">
+        <img src="43.jpg" width="500px"height="500px">
+       <p> Sony WH-XB910N Extra BASS Noise Cancellation Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features2">
+      <table>
+    <tr>
+        <th>Features</th>
+    </tr>
+    <tr>
+       <td>Alexa Voice Control</td></tr>
+       <tr>
+       <td>Google Fast Pair</td></tr>
+       <tr>
+       <td>AUX & Swift Pair</td></tr>
+       <tr> 
+       <td>30Hrs Battery life</td></tr>
+      </table>
+        </div>
+        <div class="filter2">
+      <table>
+    <tr>
+        <th>
+      Pros / Advantages
+        </th>
+        <th>
+      Cons / Disadvantages
+        </th>
+    </tr>
+      <tr>
+       <td>Good sound quality.</td>
+       <td>Bad build and very weak</td>
+      </tr>
+      <tr>
+       <td>Premium feel.</td>
+       <td>The charging last for only 1 hour after a few months of use</td>
+      </tr>
+      <tr>
+       <td>Excellent battery life</td>
+       <td>Bass quality is not good</td>
+      </tr>
+      </table>
+      </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="font">
+        <a href="MP3.html">Previous</a>
+        </div>
+</body>
+</html>

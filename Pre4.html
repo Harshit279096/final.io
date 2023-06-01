@@ -1,0 +1,1257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Headphone & chills</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="32x32" href="android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="android-chrome-512x512.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+<style>
+    .box{
+     display: flex;
+     text-align: center;
+    }
+    .box p{
+     margin-top: 10%;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     font-size: x-large;
+    }
+    .box p a{
+     margin-top:10%;
+    }
+    .features table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:25%;
+     left:50%;
+    }
+    .features table th{
+
+     background: #4a48c2;
+    }
+    .features table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features1 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top: 172%;
+     left:50%;
+    }
+    .features1 table th{
+     background: #4a48c2;
+    }
+    .features1 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features2 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:320%;
+     left:50%;
+    }
+    .features2 table th{
+     background: #4a48c2;
+    }
+    .features2 table tr:nth-child(odd){
+     background: #ced2f8;
+    } 
+    .features3 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:470%;
+     left:50%;
+    }
+    .features3 table th{
+     background: #4a48c2;
+    }
+    .features3 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features4 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:620%;
+     left:50%;
+    }
+    .features4 table th{
+     background: #4a48c2;
+    }
+    .features4 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features5 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:765%;
+     left:50%;
+    }
+    .features5 table th{
+     background: #4a48c2;
+    }
+    .features5 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features6 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:937%;
+     left:50%;
+    }
+    .features6 table th{
+     background: #4a48c2;
+    }
+    .features6 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features7 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1105%;
+     left:55%;
+    }
+    .features7 table th{
+     background: #4a48c2;
+    }
+    .features7 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features8 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1265%;
+     left:55%;
+    }
+    .features8 table th{
+     background: #4a48c2;
+    }
+    .features8 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .features9 table{
+     margin-left: 10%;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-size: x-large;
+     top:1410%;
+     left:50%;
+    }
+    .features9 table th{
+     background: #4a48c2;
+    }
+    .features9 table tr:nth-child(odd){
+     background: #ced2f8;
+    }
+    .filter{
+     position: absolute;
+     top:6%;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+    }
+    table{
+     position: absolute;
+     z-index:2;
+     left:60%;
+     top:60%;
+     margin-top: 32%;
+     transform: translate(-50%,-50%);
+     width:60%;
+     background: #fafafa;
+     text-align: center;
+     border-collapse: collapse;
+     border-spacing: 0;
+     border-radius: 12px 12px rgba(32,32,32,.3);
+     overflow: hidden;
+    }
+    th,td{
+     padding: 10px 15px;
+ 
+    }
+    th{
+     background: #ba68c8;
+     color: #fafafa;
+     font-family: 'Roboto',sans-serif;
+     font-size: x-large;
+    } 
+    td{
+     font-family: 'Open Sans',sans-serif;
+     font-size: x-large;
+    }
+    tr:nth-child(odd){
+     background-color: rgb(247, 237, 244);
+    }
+    .filter1{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:100%;
+    }
+    .filter2{
+     position: absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:173%;
+    }
+    .filter3{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:247%;
+    }
+    .filter4{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:322%;
+    }
+    .filter5{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:397%;
+    }
+    .filter6{
+     position:absolute;
+     top:0;
+     left: 0%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:482%;
+    }
+    .filter7{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:563%;
+    }
+    .filter8{
+     position:absolute;
+     top:0;
+     left: 8%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:640%;
+    }
+    .filter9{
+     position:absolute;
+     top:0;
+     left: 3%;
+     right: 0%;
+     bottom:0;
+     z-index:1;
+     opacity: 7;
+     margin-top:710%;
+    }
+    .font a{
+      position: relative;
+      display: inline-block;
+      color: #ced2f8;
+      font-size: 1.5em;
+      letter-spacing: .1em;
+      text-decoration: none;
+      text-transform: uppercase;
+      background: #0c0202;
+      padding: 10px 30px;
+      transition: .5s;
+      transition-delay:.5s;
+      margin-left: 37%;
+
+   }
+   .font a:hover{
+     color: #00eeff;
+     letter-spacing: .25em;
+     text-shadow: 0 0 5px #00eeff;
+     transition-delay: .1ms;
+   }
+  .font a span{
+    position: absolute;
+    display: block;
+    background: #00eeff;
+    box-shadow: 0 0 5px #00eeff;
+
+   }
+   .font a span:nth-child(1){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+   .font a:hover span:nth-child(1){
+    transform: scaleX(1);
+    transform-origin: right;
+   } 
+   .font a span:nth-child(2){
+    left: 0;
+    top: 0;
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin: right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+   }
+  .font  a:hover span:nth-child(2){
+    transform: scaleX(1);
+    transform-origin: right;
+   }
+  .font a span:nth-child(3){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+
+     transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+   }
+   .font a:hover span:nth-child(3){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(4){
+    left: 0;
+    top: 0;
+    width:1.5px;
+    height: 100%;
+    transform-origin:bottom;
+ 
+    transform: scaleY(0);
+    transition: transform .5s;
+    transition-delay:.4s;
+
+   }
+   .font a:hover span:nth-child(4){
+    transform: scaleY(1);
+    transform-origin: top;
+   }
+   .font a span:nth-child(5){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:left;
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(5){
+    transform: scaleX(1);
+    transform-origin:left;
+   } 
+   .font a span:nth-child(6){
+    left: 0;
+    bottom : 0; 
+    width: 50.5%;
+    height: 1.5px;
+    transform-origin:right;
+
+    transform: scaleX(0);
+    transition: transform .5s;
+    transition-delay: .8s;
+   }
+   .font a:hover span:nth-child(6){
+    transform: scaleX(1);
+    transform-origin:right;
+   }
+ </style>
+<body>
+    <div class="box">
+        <img src="41.jpg" width="500px"height="500px">
+       <p> Macmerise The Dark Knight On-Ear Bluetooth Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+
+        <div class="features">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+       <td>10 Hours Playback</td></tr>
+            <tr>
+        <td>FM Radio</td></tr>
+        <tr>
+        <td>SD Card</td></tr>
+        <tr>
+        <td>Soft Padded Ear Cushions and Passive Noise Isolation</td></tr>
+        <tr>
+        <td>Decibel Wireless Headphone</td></tr>
+            </table>
+        </div>
+      
+        <div class="filter">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+                <td>Light weight and Comfortable to wear.</td>
+                <td>Thin wires and should handle it very carefully .</td></tr>
+                <tr>
+                <td>Great sound quality.</td>
+                <td>Not for bass lovers</td></tr>
+            </table>
+             </div>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br> 
+             <hr>
+    <div class="box">
+        <img src="42.jpg" width="500px"height="500px">
+       <p> OneOdio Over Ear Headphones Studio Wired Bass Headsets
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+       
+        <div class="features1">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+      <td> 50mm Driver </td></tr>
+    <tr>
+       <td>Foldable tdghtweight Headphones with Shareport</td></tr>
+       <tr>
+        <td>Mic for DJ Monitoring Mixing Guitar PC TV with microphone</td></tr>
+            </table>
+        </div>
+        
+        <div class="filter1">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+                <td>Light weight and Comfortable to wear.</td>
+                <td>Thin wires and should handle it very carefully .</td></tr>
+                <tr>
+                <td>Great sound quality.</td>
+                <td>Not for bass lovers</td></tr>
+            </table>
+             </div>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br>
+             <br> 
+             <hr>
+    <div class="box">
+        <img src="43.jpg" width="500px"height="500px">
+       <p> Sony WH-XB910N Extra BASS Noise Cancellation Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+       
+        <div class="features2">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+       <td>Alexa Voice Control</td></tr>
+       <tr>
+       <td>Google Fast Pair</td></tr>
+       <tr>
+       <td>AUX & Swift Pair</td></tr>
+       <tr> 
+       <td>30Hrs Battery life</td></tr>
+            </table>
+        </div>
+        <div class="filter2">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+             <td>Good sound quality.</td>
+             <td>Bad build and very weak</td>
+            </tr>
+            <tr>
+             <td>Premium feel.</td>
+             <td>The charging last for only 1 hour after a few months of use</td>
+            </tr>
+            <tr>
+             <td>Excellent battery life</td>
+             <td>Bass quality is not good</td>
+            </tr>
+            </table>
+            </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+        <img src="44.jpg" width="500px"height="500px">
+       <p> Redgear Cosmo 7,1 Usb Gaming Wired Over Ear Headphones 
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features3">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+            <td>Active Noise Cancellation</td> </tr>
+            <tr>
+            <td>30-Hour Battery tdfe</td></tr>
+            <tr>
+            <td> USB-C Fast Charging</td></tr>
+            </table>
+        </div>
+        <div class="filter3">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+        <td>Sound quatdty is really good</td>
+        <td>disconnects sometime</td></tr>
+        <tr>
+        <td>Noice cancellation is sotdd</td>
+        <td>difficulty in reconnecting</td></tr>
+        <tr>
+        <td>Build quatdty is not bad</td>
+        <td>Battery is average</td>
+        </tr>
+            </table>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <hr>
+    <div class="box">
+         <img src="45.jpg" width="500px"height="500px">
+        <p> boAt Immortal IM 300 Over-Ear Wired Gaming Headphones
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features4">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+        <td>Volume Control</td>
+            </tr>
+            <tr>
+        <td>Dual Mics</td></tr>
+        <tr>
+         <td>Boom & Passive</td></tr>
+         <tr>
+         <td>Dual EQ Modes</td></tr>
+         <tr>
+         <td>3D Spatial & Music </td></tr>
+         <tr>
+         <td>Noise Isolating Earcups</td></tr>
+         <tr>
+         <td> 50MM Drivers</td></tr>
+            </table>
+        </div>
+        <div class="filter4">
+            <table>
+                <tr>
+                    <th>
+                        Pros / Advantages
+                    </th>
+                    <th>
+                        Cons / Disadvantages
+                    </th>
+                </tr>
+            <tr>
+           
+       
+        <td>The headphones do fit securely on your head. They don't move around when running or excercising</td>
+        <td>Sometime feel uncomfortable</td>
+            </tr>
+            <tr>
+        <td>The sound quality is okay </td>
+        <td>Cable is short</td>
+            </tr>
+            </table>
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <hr>
+     <div class="box">
+        <img src="46.jpg" width="500px"height="500px">
+        <p> Cosmic Byte GS430 Gaming wired over ear Headphone
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features5">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+                    <td>Volume Control</td>
+                </tr>
+                <tr>
+            <td>Dual Mics</td></tr>
+            <tr>
+             <td>Boom & Passive</td></tr>
+             <tr>
+             <td>Dual EQ Modes</td></tr>
+             <tr>
+             <td>3D Spatial & Music </td></tr>
+             <tr>
+             <td>Noise Isolating Earcups</td></tr>
+             <tr>
+             <td> 50MM Drivers</td></tr>
+                </table>
+            </div>
+            <div class="filter5">
+                <table>
+                    <tr>
+                        <th>
+                            Pros / Advantages
+                        </th>
+                        <th>
+                            Cons / Disadvantages
+                        </th>
+                    </tr>
+                <tr>
+        
+            <td>Highly accurate sound.</td>
+            <td>Battery is average</td></tr>
+            <tr>
+            <td>Bass,mids and highs are perfectly balanced.</td>
+            <td>sometime feel uncomfortable</td>
+            </tr>
+                </table>
+            </div>  
+             
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <hr>
+        <div class="box">
+       <img src="47.jpg" width="500px"height="500px">
+        <p> HyperX Cloud Stinger Wired Over Ear Gamming Headphones 
+        <br>
+        <br>
+        <br>
+        <a href="http://www.google.com/">hi</a> 
+        <br>
+        <a href="http://www.google.com/">heltd</a> 
+        </p> 
+        </div>
+        <div class="features6">
+            <table>
+                <tr>
+                    <th>Features</th>
+                </tr>
+                <tr>
+                    <td>Volume Control</td>
+                </tr>
+                <tr>
+                    <td>10 Hours Playback</td></tr>
+                    <tr>
+                <td>FM Radio</td></tr>
+                <tr>
+                <td>SD Card</td></tr>
+                <tr>
+                <td>Soft Padded Ear Cushions and Passive Noise Isolation</td></tr>
+                <tr>
+                <td>Decibel Wireless Headphone</td></tr>
+                    </table>
+                </div>
+                <div class="filter6">
+                    <table>
+                    <tr>
+                        <th>
+                            Pros / Advantages
+                        </th>
+                        <th>
+                            Cons / Disadvantages
+                        </th>
+                    </tr>
+                <tr>
+            <td>Beautiful looking headphones with great bass and sound quality.</td>
+            <td>The battery backup is not so good (7-8 hours).</td>
+                </tr>
+                <tr>
+        
+            <td>Wired 3.5mm jack comes along with the package with mic. And the jack is also pretty long.</td>
+            <td>Wired audio break with anc mode while running</td>
+                </tr>
+                <tr>
+            <td>Good quality packaging.</td>
+            <td>Mic quality okkish</td></tr>
+            <tr>
+            <td>Looks and feels premium.</td>
+            <td>Not for pure bass lovers</td>
+            
+            </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <hr>
+    <div class="box">
+    <img src="48.jpg" width="500px"height="500px">
+     <p> boAt Immortal IM1000D Dual Channel Gaming Wired Over Ear Headphones
+    <br>
+    <br>
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">heltd</a> 
+    </p> 
+    </div>
+ 
+    <div class="features7">
+        <table>
+            <tr>
+                <th>Features</th>
+            </tr>
+            <tr>
+    <td> 7.1 Channel Surround Audio</td> </tr>
+    <tr>
+    <td>50mm Drivers </td></tr>
+    <tr>
+    <td> RGB Breathing LEDs</td></tr>
+        </table>
+    </div>
+    <div class="filter7">
+        <table>
+        <tr>
+            <th>
+                Pros / Advantages
+            </th>
+            <th>
+                Cons / Disadvantages
+            </th>
+        </tr>
+    <tr>
+    <td>Mic audio is perfect</td>
+    <td> The cushion cover starts coming off after a year</td></tr>
+    <tr>
+    <td> Plastic build so its very light and somehow it doesn't break easily</td>
+    <td>Need a USB port to use lgb lights</td>
+    </tr>
+        </table>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+
+    <div class="box">
+    
+    <img src="50.jpg" width="500px"height="500px">
+    <p>Zebronics Jet PRO Premium Wired Gaming On Ear Headphone 
+    <br>
+    <br>                       
+    <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">heltd</a> 
+    </p> 
+    </div>
+
+    <div class="features8">
+        <table>
+            <tr>
+                <th>Features</th>
+            </tr>
+            <tr>
+    <td>Ear cup with LED tdghts</td></tr>
+    <tr>
+    <td>Extra soft ear cushion for comfort</td></tr>
+    <tr>
+    <td>Headband with LED lights</td></tr>
+    <tr>
+    <td>Powerful bass</td></tr>
+        </table>
+    </div>
+
+   <div class="filter8">
+        <table>
+        <tr>
+            <th>
+                Pros / Advantages
+            </th>
+            <th>
+                Cons / Disadvantages
+            </th>
+        </tr>
+    <tr>
+    <td>Mic audio is perfect</td>
+    <td> The cushion cover starts coming off after a year</td></tr>
+    <tr>
+    <td> Plastic build so its very light and somehow it doesn't break easily</td>
+    <td>Need a USB port to use lgb lights</td>
+    </tr>
+        </table>
+   </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <hr>
+    <div class="box">
+    <img src="49.jpg" width="500px"height="500px">
+    <p>Ant Esports H1100 Pro RGB Wired Over Ear Gaming Headphones
+        <br>
+        <br>
+        <br>
+    <a href="http://www.google.com/">hi</a> 
+    <br>
+    <a href="http://www.google.com/">heltd</a> 
+    </p> 
+    </div>
+    
+    <div class="features9">
+        <table>
+            <tr>
+                <th>Features</th>
+            </tr>
+            <tr>
+    <td>Ear cup with LED tdghts</td></tr>
+    <tr>
+    <td>Extra soft ear cushion for comfort</td></tr>
+    <tr>
+    <td>Headband with LED lights</td></tr>
+    <tr>
+    <td>Powerful bass</td></tr>
+        </table>
+    </div>
+    <div class="filter9">
+        <table>
+            <tr>
+                <th>
+                    Pros / Advantages
+                </th>
+                <th>
+                    Cons / Disadvantages
+                </th>
+            </tr>
+        <tr>
+            <td>The sound quatdty is very good in this range. </td>
+            <td>Bass is not nice</td></tr>
+            <tr>
+            <td>Bluetooth connectivity is quite exceptional.</td>  
+            <td>Battery is not exceptional</td>
+            </tr>
+                    </table>
+                </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div class="font">
+
+    <a href="Pre3.html">Previous</a>
+    <a href="next5.html">Next</a>
+                </div>
+</body>
+</html>
